@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="logo.png">
+    
+</head>
+<body>
+<header>
+    <nav class="navbar container">
+        <a href="index.html" class="logo">MyPortfolio</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container page">
+    <div class="page-intro">
+        <p class="section-label">GET IN TOUCH</p>
+        <h1>Contact <span>Me</span></h1>
+        <p>Have a question, project idea, or opportunity? Let's connect.</p>
+    </div>
+
+    <div class="contact-layout">
+        <div>
+            <h2>Let's Talk!</h2>
+            <p>
+                I'm interested in learning, collaborating, and exploring
+                opportunities in web development.
+            </p>
+          
+        <form>
+
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="Name"
+                   placeholder="Enter your name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="Email"
+                   placeholder="Enter your email" required>
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="Subject"
+                   placeholder="Enter the subject" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="Message"
+                      placeholder="Write your message..."
+                      required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</main>
+</body>
+</html>
